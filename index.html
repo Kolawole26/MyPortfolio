@@ -18,6 +18,10 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -73,7 +77,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image " style="background-image: url(assets/img/wave3.svg); background-color: black;" >
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/wave3.svg); background-color: black;" >
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -97,13 +101,13 @@
             <div class="box-shadow-full">
               <div class="row">
                 <div class="col-md-6">
-                  <div class="row">
+                  <div class="row animate__animated animate__fadeInLeft" >
                     <div class="col-sm-6 col-md-5">
                       <div class="about-img">
                         <img src="assets/img/kola.jpg" class="img-fluid rounded b-shadow-a" alt="">
                       </div>
                     </div>
-                    <div class="col-sm-6 col-md-7">
+                    <div class="col-sm-6 col-md-7" >
                       <div class="about-info">
                         <p><span class="title-s">Name: </span> <span>Olaniyi Muiez Kolawole</span></p>
                         <p><span class="title-s">Profile: </span> <span>Front-end developer</span></p>
@@ -115,23 +119,23 @@
                   <div class="skill-mf">
                     <p class="title-s">Skill</p>
                     <span>HTML</span> <span class="pull-right">85%</span>
-                    <div class="progress">
+                    <div class="progress animate__animated animate__fadeInUp">
                       <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <span>CSS3</span> <span class="pull-right">75%</span>
-                    <div class="progress">
+                    <div class="progress animate__animated animate__fadeInUp">
                       <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <span>PHP</span> <span class="pull-right">50%</span>
-                    <div class="progress">
+                    <div class="progress animate__animated animate__fadeInUp">
                       <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <span>JAVASCRIPT</span> <span class="pull-right">75%</span>
-                    <div class="progress">
+                    <div class="progress animate__animated animate__fadeInUp">
                       <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <span>PHOTOSHOP</span> <span class="pull-right">75%</span>
-                    <div class="progress">
+                    <div class="progress animate__animated animate__fadeInUp">
                       <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
@@ -139,11 +143,11 @@
                 <div class="col-md-6">
                   <div class="about-me pt-4 pt-md-0">
                     <div class="title-box-2">
-                      <h5 class="title-left">
+                      <h5 class="title-left animate__animated animate__flipInX">
                         About me
                       </h5>
                     </div>
-                    <p class="lead">
+                    <p class="lead animate__animated animate__fadeInRight">
                       I am a graduate of Industrial Chemistry, a Graphic designer and a web developer. 
                       <br>
                       Obtain certified skills in Html, Css, Javascript, Angular and Php for web Development.
@@ -152,10 +156,8 @@
 
                     </p>
 
-                    <p class="lead">
-                      
-                    </p>
-                    <p class="lead">
+                    
+                    <p class="lead animate__animated animate__fadeInRight">
                       I am a proven team player, I exibiht ideal teamwork traits, including reliability, 
                       good communication, commitment, adaptability, and going above and beyond what is asked.
                     </p>
@@ -671,48 +673,76 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="title-box-2">
-                      <h5 class="title-left">
+                      <h5 class="title-left animate__animated animate__flipInX">
                         Send Message Us
                       </h5>
                     </div>
                     <div>
-                      <form name="contact" method="POST" class="php-email-form" data-netlify="true">
+                      <!-- <form name="contact" method="POST" class="php-email-form" data-netlify="true">
                         <div class="row">
                           <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            <div>
+                              <input type="text" name="name" class="form-control"  placeholder="Your Name" required>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            <div>
+                              <input type="email" class="form-control" name="email"  placeholder="Your Email" required>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            <div>
+                              <input type="text" class="form-control" name="subject"  placeholder="Subject" required>
                             </div>
                           </div>
                           <div class="col-md-12">
-                            <div class="form-group">
+                            <div>
                               <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                             </div>
                           </div>
-                          <div class="col-md-12 text-center my-3">
+                           <div class="col-md-12 text-center my-3">
                             <div class="loading">Loading</div>
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                           </div>
-                          <div class="col-md-12 text-center">
+                          <div class="col-md-12 text-center mt-4">
                             <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
                           </div>
                         </div>
-                      </form>
+                      </form> -->
+
+                      <form name="contact" method="POST" class="my-form" data-netlify="true">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div>
+                              <input type="text" name="name" placeholder="Name" class="btn" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div>
+                              <input type="email" name="email" placeholder="Email" class="btn" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div>
+                              <input type="text" name="subject" placeholder="Subject" class="btn" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div>
+                              <textarea name="message"  rows="5" placeholder="Message" class="btn"></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center mt-4">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                    </form>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
+                      <h5 class="title-left animate__animated animate__flipInX">
                         Get in Touch
                       </h5>
                     </div>
@@ -728,7 +758,7 @@
                         <li><span class="bi bi-envelope"></span> kolenzy26@yahoo.com</li>
                       </ul>
                     </div>
-                    <div class="socials">
+                    <div class="socials animate__animated animate__fadeInUp">
                       <ul>
                         <li><a href="https://web.facebook.com/olaniyi.kolawole.50?_rdc=1&_rdr"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
                         <li><a href="https://www.instagram.com/kolenzy360/"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>

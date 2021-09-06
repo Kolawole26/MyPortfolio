@@ -1132,7 +1132,7 @@ a:hover {
   }
 }
 
-.php-email-form .error-message {
+/* .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1168,28 +1168,32 @@ a:hover {
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
+} */
 
-.php-email-form input, .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
+.my-form input, .my-form textarea {
+  border-radius: 5px;
+  box-shadow: 0;
   font-size: 14px;
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
 }
 
-.php-email-form input:focus, .php-email-form textarea:focus {
-  border-color: #0078ff;
+.my-form input:focus, .my-form textarea:focus {
+  border: 2px solid #0078ff;
 }
 
-.php-email-form input {
+.my-form input {
   padding: 10px 15px;
+ 
 }
 
-.php-email-form textarea {
+.my-form textarea {
   padding: 12px 15px;
   margin-bottom: 0;
 }
 
-.php-email-form button[type="submit"] {
+.my-form button[type="submit"] {
   background: #0078ff;
   border: 0;
   padding: 10px 24px;
@@ -1197,7 +1201,7 @@ a:hover {
   transition: 0.4s;
 }
 
-.php-email-form button[type="submit"]:hover {
+.my-form button[type="submit"]:hover {
   background: #3393ff;
 }
 
